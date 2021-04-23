@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Guillermo
+    last_name: Santamaria Rodrigo
+    
+    # Define yourself in 4-5 words
+    motto: i like upgrade my knowledge with new experiences. 
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Sice 2 years all i do its to make better the life of my daugther with Syndrome of Down. She its my only priority in my life and its for that i have a better profesional and person.  
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fmad13-1.fna.fbcdn.net/v/t1.6435-0/c0.0.206.206a/p206x206/106016196_3206599349379154_8240704684172490950_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=da31f3&_nc_ohc=aaOAwIVr0IIAX82TFcM&_nc_ht=scontent.fmad13-1.fna&tp=27&oh=fc0217acd5f70159661b8a91758b8fb5&oe=60A7D774
+
+    # Contact Information
+    email: guillermosantamariarodrigo@hotmail.com #optional
+    phone: 683 53 20 81 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Gormm1980/
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: 85%
+
+    # Interests or hobies
+    interests:
+      - item: VideoGames
+
+      - item: Paint Miniatures
+
+      - item: My daugther
+
+# Your previous education
+education:
+     - degree: Works laws.
+      university: Burgos University.    
+      university_logo: https://www.ubu.es/sites/default/files/portal_page/images/ubu_25_aniversario_escudo.png
+      time: 1998 - 2000.
+      details: |
+        Describe your study here: i learn all about of laws for apply to work, social security, estadistics and corporate organization. 
+
+    - degree: Turism
+      university: Uned      
+      university_logo: https://www.cursocommunitymanageruned.org/wp-content/uploads/2016/03/UNED-Curso-Community-Manager.jpg
+      time: 2004 - 2007 
+      details: |
+        Describe your study here: i learn about turism sector (hotels, Travel angency and guides), geaography and also the sector laws. 
+         
+    
+# Your previous job experiences or voluntier
+This is a part of my job experience only the last 3 jobs, have experiance in travel agency since 2001:
+
+- Travel Agency:  Since october of 2010 to march of 2013 i was in Amadis Express, i manage the corporate accounts, groups, and administrative issues.
+- Travel Manager: Since may of 2013 to january of 2016 i managed my own tarvel agency so i do all kind of issues.
+- Travel Agency:  Since february of 2016  to november of 2020 i was in Viajes Mundirama, i manage the corporate accounts, groups, and administrative issues.
+
+# Your project portfolio
+projects:
+
+    intro:  Here you can see all the information of my completed projects.
+    assignments:
+      - title: Instagram-Bootstrap        # optional
+        link: "https://salmon-damselfly-ai0jm66i.ws-eu03.gitpod.io/"
+        tagline: "Its a  imitation of instagram"
+
+skills:
+    toolset:
+      
+      - name: Javascript 
+        level: 55 %
+
+      - name: HTML5 & CSS
+        level: 95 %
